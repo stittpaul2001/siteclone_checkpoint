@@ -1,0 +1,49 @@
+.background-image {
+  background-image: url;(work space area.webp);
+}
+
+h1,h2,h3,h4,h5,h6 {
+  font-family: "Roboto Mono"
+}
+
+.map-section{
+    Boise Map.jpg;
+    min-height 50vh;
+    width: 100%;
+}
+
+
+.roboto-mono-<uniquifier> {
+  font-family: "Roboto Mono", serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
+
+"overflow": (
+  property: overflow,
+  values: auto hidden visible scroll,
+),
+"overflow-x": (
+  property: overflow-x,
+  values: auto hidden visible scroll,
+),
+"overflow-y": (
+  property: overflow-y,
+  values: auto hidden visible scroll,
+),
+
+Link images (
+
+url(replicate-make-replica-copy-clone-and-modify-any-website.jpg)
+)
+
+{
+	"folders": [
+		{
+			"path": "."
+		}
+	],
+	"settings": {}
+}
