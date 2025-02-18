@@ -28,9 +28,6 @@
     </header>
 
 
-
-
-
     <!-- SECTION main-content -->
     <main class="container text-center p-5">
         <div class="row align-items-start">
@@ -57,24 +54,27 @@
                     <h4>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Temporibus tempore natus repellendus
                         cumque amet est necessitatibus, nihil ratione, saepe aliquam unde odit qui voluptatibus dolore
                         magni eos quasi totam commodi.</h4>
+
                 </div>
             </div>
         </div>
         <!-- FIXME this should probably be a row -->
         <section class="p-5 text-light text-center bg-primary">
             <!-- FIXME this row should be inside on another container -->
-            <div class="row font-Roboto Mono; justify-content-start">
+            <div class="row roboto justify-content-start">
                 <h1>Our mission is to provide the best service unless we know you; then you will receive a mediocre
                     service.</h1>
                 <!-- FIXME rows should not be nested inside of other rows -->
                 <div class="row justify-content-center">
-                    <!-- FIXME create a column here inside of this row, and add your h1 to that column -->
-                    <!-- FIXME make this card spill out on desktop only (magic-spill-card and position-relative from read) (⚠️ do this last) -->
-                    <!-- FIXME make sure the order changes here as well (barracuda phone section) -->
+                    <col>
+                    <h2>Learning about nesting</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing
+                        elit<!-- FIXME create a column here inside of this row, and add your h1 to that column -->
+                        <!-- FIXME make this card spill out on desktop only (magic-spill-card and position-relative from read) (⚠️ do this last) -->
+                        <!-- FIXME make sure the order changes here as well (barracuda phone section) -->
                     <div class="col-md-6 bg-white p-5 text-dark">
-                        <h2>Learning about nesting</h2>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit
-                            </<div>
+
+                        </<div>
 
                     </div>
                 </div>
@@ -83,59 +83,43 @@
         <!-- FIXME these cards should be in row with a column around each card -->
         <!-- FIXME  align the items in the row to the center (align items center on the row)-->
         <!-- FIXME for order change, reference phone section on barracuda -->
-
-        <div class="card-group mt-5">
-            <div class="card">
-                <img src="dad-joke.png" class="card-img-top" alt="...">
-                <div class="card-body">
-                    <h5 class="card-title">Can't decide if this is funny?</h5>
-                    <p class="card-text">It is clear that this is pretty funny or might make one think back about their
-                        life.</p>
-                    <p class="card-text"><small class="text-body-secondary"></small></p>
-                </div>
-            </div>
-            <!-- FIXME make this card larger than the other 2 cards (add extra text content) -->
-            <div class="card">
-                <img src="666c9e8d0c44a.image.jpg" class="card-img-top" alt="...">
-                <div class="card-body">
-                    <h5 class="card-title">Do you like it???</h5>
-                    <p class="card-text">Besides a creepy face trying to jump out of the page, this is pretty well
-                        crafted for the joke that is made.</p>
-                    <p class="card-text"><small class="text-body-secondary"></small></p>
-                    <p>Always a questionable re-action when viewing that creepy face</p>
-                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repudiandae omnis optio tenetur
-                        iste quam autem cum, quis rerum neque consequuntur reiciendis animi sit, cumque cupiditate
-                        itaque, quaerat magnam quidem totam?</p>
-
-                </div>
-            </div>
-            <div class="card">
-                <img src="clean-jokes-swl-240119-06-90e204.webp" class="card-img-top" alt="...">
-                <div class="card-body">
-                    <h5 class="card-title">Trying to decide if this is good or if i need to leave.</h5>
-                    <p class="card-text">This additional content is made for everyone to decide if this is a funny dad
-                        joke or if its that bad and someone really needs help with their life.</p>
-                    <p class="card-text"><small class="text-body-secondary"></small></p>
-                </div>
-            </div>
+        <div class="container-fluid" <div class="row align center of row" <div class="col-md-4 group card" <img
+            src="dad-joke.png" class="card-img-top" alt="funny joke">
+            <h5 class="card-title">Can't decide if this is funny?</h5>
+            <p class="card-text">It is clear that this is pretty funny or might make one think back about their
+                life.</p>
+            <p class="card-text"><small class="text-body-secondary"></small></p>
+        </div>
         </div>
 
-        <!-- FIXME and this img to it's own column inside of the lower row here -->
-        <img class="office" src="desk-work-area.jpg" alt="office space">
-
-        <div class="row">
-            <!-- FIXME we need some columns in here -->
-            <div class="text-nowrap bg-body-secondary border" style="width: 8rem;">
-
-            </div>
-            <span>A lot of randomness to this replica site that is not all of a replica,</span>
-            <span>but more of a design that was made to be funny and terrible.</span>
-            <section class="Map-section">
-                <h2>Boise</h2>
-                <p>Here is a map of Boise, Idaho</p>
-                <img class="card-img-center" src="Boise-Map.jpg" alt="Map of Boise, ID">
-            </section>
         </div>
+        <!-- FIXME make this card larger than the other 2 cards (add extra text content) -->
+
+
+        <div class="col-md-4">
+            <img src="clean-jokes-swl-240119-06-90e204.webp" class="card-img-top" alt="...">
+            <h5 class="card-title">Trying to decide if this is good or if i need to leave.</h5>
+            <p class="card-text">This additional content is made for everyone to decide if this is a funny dad
+                joke or if its that bad and someone really needs help with their life.</p>
+            <p class="card-text"><small class="text-body-secondary"></small></p>
+        </div>
+        </div>
+        </div>
+        </div>
+        </div>
+        <div class="col-md-3" <!-- FIXME and this img to it's own column inside of the lower row here -->
+            <img class="office" src="desk-work-area.jpg" alt="office space">
+
+            <div class="col-md-3 text-nowrap bg-body-secondary border" style="width: 8rem;">
+                <!-- FIXME we need some columns in here -->
+                <span>A lot of randomness to this replica site that is not all of a replica,</span>
+                <span>but more of a design that was made to be funny and terrible.</span>
+                <section class="Map-section justify-content-center">
+                    <h2>Boise</h2>
+                    <p>Here is a map of Boise, Idaho</p>
+                    <img class="card-img-center" src="Boise-Map.jpg" alt="Map of Boise, ID">
+                </section>
+            </div>
 
     </main>
 
@@ -145,6 +129,7 @@
         <div class="row">
             <div class="col-md-4">
                 <div class="p-2">
+                    <span class="mdi mdi-page-layout-header-footer fs-1 text-primary me-2"></span>
                     <h2>Links</h2>
                     <h3>Home</h3>
                     <h3>About us</h3>
@@ -152,12 +137,14 @@
             </div>
             <div class="col-md-4">
                 <div class="p-2">
+                    <span class="mdi mdi-page-layout-header-footer fs-1 text-primary me-2"></span>
                     <h2>Services</h2>
                     <h3>Computer stuff</h3>
                 </div>
             </div>
             <div class="col-md-4">
                 <div class="p-2">
+                    <span class="mdi mdi-page-layout-header-footer fs-1 text-primary me-2"></span>
                     <h2>Contact</h2>
                     <h3> Someone else</h3>
                 </div>
@@ -165,7 +152,28 @@
         </div>
     </footer>
 
+
+
+
+    <div class="d-flex flex-nowrap">
+        <div class="order-3 p-2">First flex item</div>
+        <div class="order-2 p-2">Second flex item</div>
+        <div class="order-1 p-2">Third flex item</div>
+    </div>
+
+
+
+
+
+
+
+
+
 </body>
+
+
+
+
 
 
 </html>

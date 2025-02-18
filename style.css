@@ -1,49 +1,58 @@
 .background-image {
-  background-image: url;(work space area.webp);
+  background-image: url(work-space-area.webp);
+  ;
+  background-image: no-repeat;
+  background-size: cover;
+  width: auto;
 }
 
-h1,h2,h3,h4,h5,h6 {
+.text-shadow {
+  text-shadow: 2px 2px hotpink;
+}
+
+  {
   font-family: "Roboto Mono"
 }
 
-.map-section{
-    Boise Map.jpg;
-    min-height 50vh;
-    width: 100%;
+.map-section {
+  min-height: 50vh;
+  width: 100%;
 }
 
 
-.roboto-mono-<uniquifier> {
-  font-family: "Roboto Mono", serif;
+
+.roboto {
+  font-family: "Roboto", serif;
   font-optical-sizing: auto;
-  font-weight: <weight>;
+  font-weight: 400;
   font-style: normal;
 }
 
+.magic-card-wrapper {
+  /* border: 3px hotpink dashed; */
+  position: relative;
+}
 
-"overflow": (
-  property: overflow,
-  values: auto hidden visible scroll,
-),
-"overflow-x": (
-  property: overflow-x,
-  values: auto hidden visible scroll,
-),
-"overflow-y": (
-  property: overflow-y,
-  values: auto hidden visible scroll,
-),
+.magic-card {
+  background-color: cornflowerblue;
+  position: relative;
 
-Link images (
+}
 
-url(replicate-make-replica-copy-clone-and-modify-any-website.jpg)
-)
+.cat-img {
+  height: 700px;
+}
 
-{
-	"folders": [
-		{
-			"path": "."
-		}
-	],
-	"settings": {}
+@media (min-width: 769px) {
+
+  .magic-card {
+    background-color: hotpink;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    right: 10px
+  }
+
+
+
 }
